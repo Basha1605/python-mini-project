@@ -40,4 +40,3 @@ def cal():
       elif operator == "%" :
        res=a%b
        print("Modulo : ",res)
-cal()
