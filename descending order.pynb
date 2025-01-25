@@ -1,0 +1,17 @@
+# descending order list
+def list(numbers):
+    return sorted(numbers, reverse=True)
+
+# Enter numbers
+    num = input("Enter numbers separated by comma: ")
+
+# Convert the number to  list 
+    numbers = [int(num) for _ in num]
+
+# Call the function and store the result
+   # result = list(numbers)
+
+#  show the result
+    #print("The list in descending order is:", result)
+
+list([2,7.8,5,9])
